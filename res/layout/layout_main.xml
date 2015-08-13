@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android_custom="http://schemas.android.com/apk/res/com.mystudy.ui"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f2f2f2"
+    android:orientation="vertical" >
+
+    <com.mystudy.ui.RoundView
+        android:id="@+id/roundProgressBar"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="20dp"
+        android_custom:roundColor="#2a2a2a"
+        android_custom:roundProgressColor="#20B2AA"
+        android_custom:roundWidth="25dip"
+        android_custom:textColor="#EE9A00"
+        android:layout_gravity="center_horizontal"
+        android_custom:textSize="24sp" />
+
+
+
+</LinearLayout>
